@@ -46,10 +46,10 @@ func main() {
   fmt.Println(os.Stdout, duplicate_encoder.DuplicateEncode("Success"))
 
   fmt.Println("---FindOddInit---")
-  fmt.Println(os.Stdout, find_odd_init.FindOdd({20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5}))
-  fmt.Println(os.Stdout, find_odd_init.FindOdd({1,1,2,-2,5,2,4,4,-1,-2,5}))
-  fmt.Println(os.Stdout, find_odd_init.FindOdd({20,1,1,2,2,3,3,5,5,4,20,4,5}))
-  fmt.Println(os.Stdout, find_odd_init.FindOdd({1,1,1,1,1,1,10,1,1,1,1}))
+  fmt.Println(os.Stdout, find_odd_init.FindOdd([]int{20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5}))
+  fmt.Println(os.Stdout, find_odd_init.FindOdd([]int{1,1,2,-2,5,2,4,4,-1,-2,5}))
+  fmt.Println(os.Stdout, find_odd_init.FindOdd([]int{20,1,1,2,2,3,3,5,5,4,20,4,5}))
+  fmt.Println(os.Stdout, find_odd_init.FindOdd([]int{1,1,1,1,1,1,10,1,1,1,1}))
 
   fmt.Println("---TwoToOne---")
   fmt.Println(os.Stdout, two_to_one.TwoToOne("aretheyhere", "yestheyarehere"))
@@ -64,8 +64,8 @@ func main() {
   fmt.Println(os.Stdout, arithmetic.Arithmetic(8, 2, "divide"))
 
   fmt.Println("---AlterniteCapitalization---")
-  fmt.Println(os.Stdout, alternite_capitalization.AlterniteCapitalization("AbCdEf"))
-  fmt.Println(os.Stdout, alternite_capitalization.AlterniteCapitalization("CoDeWaRrIoRs"))
-  fmt.Println(os.Stdout, alternite_capitalization.AlterniteCapitalization("InDeXiNgLeSsOnS"))
-  fmt.Println(os.Stdout, alternite_capitalization.AlterniteCapitalization("CoDiNgIsAfUnAcTiViTy"))
+  fmt.Println(os.Stdout, alternite_capitalization.Capitalize("AbCdEf"))
+  fmt.Println(os.Stdout, alternite_capitalization.Capitalize("CoDeWaRrIoRs"))
+  fmt.Println(os.Stdout, alternite_capitalization.Capitalize("InDeXiNgLeSsOnS"))
+  fmt.Println(os.Stdout, alternite_capitalization.Capitalize("CoDiNgIsAfUnAcTiViTy"))
 }

@@ -4,4 +4,4 @@ build:
 
 .PHONY: run
 run:
-		go run BitCounting.go
+		go run ./main.go
